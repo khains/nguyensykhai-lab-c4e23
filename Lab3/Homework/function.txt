@@ -1,0 +1,19 @@
+1. Why should we use functions at all?
+- Vì khi s? d?ng l?i ch? c?n g?i hàm, không c?n vi?t l?i t?t c? nh?ng gì trong hàm.
+2. How to define/declare a function?
+- def  NAME( PARAMETERS ):
+	STATEMENTS
+3. How to call/use a function?
+- NAME ( VALUE PARAMETERS)
+4. What is return, why and how do we use it?
+- Return là tr? v? k?t qu? c?a bi?n trong hàm, s? d?ng nó d? luu l?i giá tr? c?a bi?n và dùng vào ph?n khác.
+5. Do we have to use return in every function?
+- Không. Khi nào c?n s? d?ng k?t qu? c?a bi?n nào dó trong hàm thì m?i c?n return.
+6. What are function arguments/parameters, why and how we use it?
+- Các tham s? hàm là ph?n ko c? d?nh, ph?n này do ngu?i dùng nh?p.
+- def  ABC(a ,b):
+	 STATEMENTS
+  ABC(5, 6)
+7. How to use function from a different file other than our currently working file?
+- from func_intro import eval
+dùng hàm eval t? file func_intro.py
