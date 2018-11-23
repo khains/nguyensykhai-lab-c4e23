@@ -1,12 +1,13 @@
 from turtle import *
-def draw_star(x, y, length):
-    penup()
-    goto(x, y)
-    pendown()
-    left(36)
-    for i in range(5):
-        forward(length)
-        left(144)
+from ex5 import draw_star
+# def draw_star(x, y, length):
+# #     penup()
+# #     goto(x, y)
+# #     pendown()
+# #     left(36)
+# #     for i in range(5):
+# #         forward(length)
+#         left(144)
 speed(0)
 color('blue')
 for i in range(100):

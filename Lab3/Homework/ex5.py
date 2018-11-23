@@ -7,5 +7,5 @@ def draw_star(x, y, length):
     for i in range(5):
         forward(length)
         left(144)
-draw_star(30, 30, 200)
-mainloop()
+# draw_star(30, 30, 200)
+# mainloop()

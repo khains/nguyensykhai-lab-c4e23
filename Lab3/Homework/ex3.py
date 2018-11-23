@@ -4,5 +4,5 @@ def draw_square(length,colors):
     for i in range(4):
         forward(length)
         left(90)   
-draw_square(200, "red")
-mainloop()
+# draw_square(200, "red")
+# mainloop()
